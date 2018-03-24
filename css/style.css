@@ -54,13 +54,22 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
+  border: none;
   border-width: 2px;
   border-radius: 30px;
-  background-image: linear-gradient(to right,#fbbd61,#ec7532);
+  background-image: linear-gradient(to bottom,#fbbd61,#ec7532);
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.move-info .btn-trailer:hover,
+.move-info .btn-trailer:focus {
+  cursor: pointer;
+  outline: 0;
+  background-image: linear-gradient(to bottom,#ec7532,#fbbd61);
 }
 
 .modal {
-  /* display: none; */
+  display: none;
   position: fixed;
   z-index: 10;
   left: 0;
@@ -69,6 +78,32 @@ body {
   width: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 5% auto;
+  width: 69%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+.close-btn {
+  position: absolute;
+  top: 45px;
+  left: 1125px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #ff9800;
+  cursor: pointer;
+}
+
+iframe {
+  margin-bottom: -4px;
+}
+.close-btn i {
+  font-size: 30px;
 }
 
 .nav {
