@@ -19,34 +19,34 @@ body {
   background-size: cover;
 }
 
-.move-info{
+.movie-info{
   padding-top: 200px;
   margin-right: 40%;
   color: #ffffff;
 }
 
-.move-info span{
+.movie-info span{
   text-transform: uppercase;
   color: #fbbd61;
   font-size: 18px;
   text-shadow: 1px 1px 1px #000000;
 }
 
-.move-info h1{
+.movie-info h1{
   font-size: 60px;
   font-weight: 400;
   margin: 0;
   text-shadow: 1px 1px 1px #000000;
 }
 
-.move-info p{
+.movie-info p{
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 40px;
   text-shadow: 1px 1px 1px #000000;
 }
 
-.move-info .btn-trailer {
+.movie-info .btn-trailer {
   font-size: 25px;
   font-weight: 400;
   padding: 12px 24px;
@@ -61,8 +61,8 @@ body {
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
 }
 
-.move-info .btn-trailer:hover,
-.move-info .btn-trailer:focus {
+.movie-info .btn-trailer:hover,
+.movie-info .btn-trailer:focus {
   cursor: pointer;
   outline: 0;
   background-image: linear-gradient(to bottom,#ec7532,#fbbd61);
@@ -149,4 +149,161 @@ iframe {
 span i.animated{
   animation-duration: 2.5s;
   animation-iteration-count: infinite;
+}
+
+.footer {
+  background: #2f2f2f;
+  padding: 20px 0 15px;
+}
+
+.footer .direitos-reservados {
+  color: #ffffff;
+  float: right;
+}
+
+
+.movie-personagem .item {
+  min-height: 150px;
+}
+
+.btn-contato {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #fbbd61;
+  float: right;
+}
+
+.btn-contato:hover,
+.btn-contato:focus {
+  cursor: pointer;
+  outline: 0;
+  background-color: #ec7532;
+}
+
+.fom-contact {
+  margin: 50px 0;
+}
+
+.fom-contact .img-infinity-war {
+  float: right;
+}
+
+.contact input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  margin: 5px 0;
+}
+
+.contact select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  margin: 5px 0;
+}
+
+.contact select.cidade {
+  position: relative;
+  left: 23px;
+}
+
+.personagens{
+  margin: 50px 0;
+}
+
+.personagens .img-personagem{
+  width: 100%;
+}
+
+.personagens .info-personagem{
+  text-align: center;
+  padding: 10px;
+}
+
+
+.personagem {
+  background-color: #fbfbfb;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2),0 5px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
+
+.btn-personagem {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: #dd0000;
+}
+
+.btn-personagem:hover,
+.btn-personagem:focus {
+  cursor: pointer;
+  outline: 0;
+  background-color: #ec7532;
+}
+
+.personagens .info-personagem .btn-personagem{
+  text-align: center;
+}
+
+.personagens .info-personagem h1{
+  margin: 0.1em 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .nav{
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .nav ul li a:hover {
+    padding: 10px 0px;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+  }
+
+  .movie-info{
+    padding-top: 300px;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 5px;
+    left: 305px;
+    cursor: pointer;
+  }
+  .movie-personagem .item {
+      min-height: 300px;
+  }
+
+  .contact select.cidade {
+    position: relative;
+    left: 0px;
+  }
 }
